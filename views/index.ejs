@@ -17,11 +17,8 @@
   <%- include('./components/header.ejs'); %>
 
   <!-- Body content -->
-  <div class="container"> 
-    
-     <h1><%= title %></h1>
+  <%- include('./contents/' + page + '.ejs'); %>
 
-  </div>
  
  <!-- Partials for footer section -->
    <%- include('./components/footer.ejs'); %>
