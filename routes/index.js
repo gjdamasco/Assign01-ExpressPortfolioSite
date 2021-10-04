@@ -3,12 +3,12 @@ var router = express.Router();
 
 /* GET Home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'My Home Page', page: 'home'});
+  res.render('index', { title: 'Home Page', page: 'home'});
 });
 
 /* GET Home page. */
 router.get('/home', function(req, res, next) {
-  res.render('index', { title: 'My Home Page', page: 'home'});
+  res.render('index', { title: 'Home Page', page: 'home'});
 });
 
 /* GET About page. */
